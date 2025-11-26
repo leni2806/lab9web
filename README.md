@@ -7,9 +7,13 @@
 ### **Topik: Modular PHP, Routing, Login, dan CRUD Data Barang**
 
 **Nama**: LENI  
+
 **NIM**: 312410442  
+
 **Kelas**: TI.24.A5  
+
 **Program Studi**: Teknik Informatika  
+
 **Mata Kuliah**: Pemrograman Web  
 
 ---
@@ -48,33 +52,30 @@ Aplikasi mencakup:
 
 ## 🏗️ **Struktur Project**
 
-project_praktikum9/
-│ index.php                      # Router utama
-│
-├── config/
-│     └── database.php           # Koneksi database
-│
-├── views/
-│     ├── header.php             # Template header
-│     ├── footer.php             # Template footer
-│     └── dashboard.php          # Dashboard
-│
-├── modules/
-│     ├── user/
-│     │     ├── list.php         # List data barang
-│     │     ├── add.php          # Tambah barang
-│     │     ├── edit.php         # Edit barang
-│     │     └── delete.php       # Hapus barang
-│     │
-│     └── auth/
-│           ├── login.php        # Halaman login
-│           └── logout.php       # Proses logout
-│
-└── assets/
-      ├── css/style.css          
-      ├── js/main.js             # Interaksi JS
-      └── img/                   # Folder gambar (hp_oppo, hp_samsung, hp_xiomi, dll)
 ```
+project_praktikum9/
+├── index.php              # Router utama
+├── config/
+│   ├── database.php       # Koneksi database
+├── views/
+│   ├── header.php         # Template header
+│   ├── footer.php         # Template footer
+│   ├── dashboard.php      # Dashboard
+│   ├── modules/
+│   │   ├── user/
+│   │   │   ├── list.php   # List data barang
+│   │   │   ├── add.php    # Tambah barang
+│   │   │   ├── edit.php   # Edit barang
+│   │   │   └── delete.php # Hapus barang
+│   │   └── auth/
+│   │       ├── login.php  # Halaman login
+│   │       └── logout.php # Proses logout
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js # Interaksi JS
+│   └── img/ # Folder gambar (hp_oppo, hp_samsung, hp_xiomi, dll)
 
 ---
 
